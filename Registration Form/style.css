@@ -1,0 +1,49 @@
+body {
+  background-color: #f6f5f5;
+}
+
+div {
+  display: inline;
+}
+
+form {
+  height: 550px;
+  width: 370px;
+  color: #f6f5f5;
+  background: #00334e;
+  padding: 25px;
+  padding-left: 30px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -ms-transform: translateX(-50%) translateY(-50%);
+  -webkit-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+
+h1 {
+  font-family: "Caramel", cursive;
+  font-size: 50px;
+  background-color: #00334e;
+  padding-left: 10px;
+}
+h4 {
+  color: #f6f5f5;
+  font-size: 15px;
+}
+
+button {
+  background-color: greenyellow;
+  height: 30px;
+  width: 340px;
+  size: 100px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  padding-left: 10px;
+  padding-right: 10px;
+  border-radius: 20px;
+}
+
+input {
+  width: 330px;
+}
