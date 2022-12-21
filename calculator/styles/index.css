@@ -1,0 +1,97 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap");
+
+body,
+input,
+button,
+select {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 900;
+  font-size: 15px;
+}
+
+button {
+  background-color: white;
+  border: none;
+  border-radius: 8px;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  margin: 8px;
+}
+button:active {
+  background-color: gray;
+  color: white;
+}
+.container {
+  height: max-content;
+  /* width: 50vw; */
+  /* margin: auto; */
+  text-align: center;
+}
+.mainContainer {
+  display: flex;
+  justify-content: center;
+  gap: 100px;
+}
+
+@media all and (max-width: 854px) {
+  .container {
+    width: 80vw;
+  }
+}
+
+.sqrButton {
+  height: 50px;
+  width: 50px;
+}
+
+.longButton {
+  height: 50px;
+  width: 100px;
+}
+#inputClass {
+  height: 48px;
+  width: 315px;
+  text-align: right;
+  margin: 8px;
+  padding: 0px 12px;
+  border: none;
+  background-color: white;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  border-radius: 8px;
+}
+#inputClass:focus {
+  outline: none;
+}
+.equalToButton {
+  height: 50px;
+  width: 410px;
+  background-color: greenyellow;
+  color: gray;
+}
+@media all and (max-width: 534px) {
+  .container {
+    width: 100vw;
+  }
+
+  .sqrButton {
+    width: 10%;
+  }
+
+  .longButton {
+    width: 20%;
+  }
+  #inputClass {
+    width: 63%;
+  }
+  .equalToButton {
+    width: 85%;
+  }
+  .mainContainer {
+    flex-direction: column;
+    gap: 50px;
+  }
+}
+
+.clearBtn {
+  padding: 10px 20px;
+  background-color: orange;
+}

@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Travel Reservation</title>
+    <link rel="stylesheet" href="../css/reservation.css">
+</head>
+
+
+
+<div class="container">
+
+    <h2>TRAVEL REGISTRATION</h2>
+
+<body>
+    <div>
+        <form action="">
+
+            <!--Full name-->
+
+            <div class="form-item">
+
+                <label for="name">Full Name*</label>
+
+                <input id="name" type="text" required placeholder="First Name Last Name">
+
+            </div>
+
+            <!--Email-->
+
+            <div class="form-item">
+
+                <label for="email">Email*</label>
+
+                <input id="email" type="email" required placeholder="Email Address">
+
+            </div>
+
+            <!--Location-->
+
+            <div class="form-item">
+
+                <label for="location">Select Tour Package*</label>
+
+                <select name="location" id="location" required>
+
+                    <option value=" " selected>Select Location</option>
+
+                    <option value="goa ">Goa</option>
+
+                    <option value="maharashtra">Maharashtra</option>
+
+                    <option value="jammu">Jammu and Kashmir</option>
+
+                    <option value="agra">Agra</option>
+
+                </select>
+
+            </div>
+
+            <div class="form-item">
+
+                <label for="arrival-date">Arrival date</label>
+
+                <input id="arrival-date" type="date" required>
+
+            </div>
+
+            <div class="form-item">
+
+                <label for="no-of-person">No of Person</label>
+
+                <input id="number" type="no-of-person" required min="0">
+
+            </div>
+
+            <div class="form-item">
+
+                <label for="services">What do u want to avail</label>
+
+                <div>
+
+                    <input id="boarding" type="checkbox" name="boarding">
+
+                    <label for="sight-seeing">Sight seeing</label>
+
+                </div>
+
+                <div  >
+
+                    <input id="fooding" type="checkbox" name="fooding">
+
+                    <label for="fooding">Fooding</label>
+
+                </div>
+
+            </div>
+
+            <div class="form-item">
+
+                <label for="discount">Discount Coupon Code</label>
+
+                <input id="discount" type="text">
+
+            </div>
+
+            <div class="form-item">
+
+                <input type="radio" required name="terms" value="agree">
+
+                <label for="agree">Agree</label>
+
+            </div>
+
+            <div class="form-item">
+
+                <input id="fooding" type="radio" required name="terms" value="disagree">
+
+                <label for="disagree">Disagree</label>
+
+            </div>
+
+    </div>
+
+    <div class="form-item" >
+        <input type="submit" value="Complete reservation">
+    </div>
+
+    </form>
+
+    </div>
+
+
+</div>
+</body>
+
+
+</html>
